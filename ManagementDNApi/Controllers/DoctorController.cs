@@ -1,0 +1,118 @@
+﻿using BusinessLogicLayer;
+using DataLayer.Entities;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+
+namespace DNApi.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class DoctorController : ControllerBase
+    {
+        private readonly IDoctorLogic _logic;
+        public DoctorController(IDoctorLogic logic)
+        {
+            _logic = logic;
+        }
+
+        //done
+        [HttpGet("byId")]
+        public IActionResult GetById([FromQuery] Guid id)
+        {
+            try
+            {
+                var res = _logic.GetById(id);
+                if(res != null)
+                {
+                    return Ok(res);
+                }
+                else
+                {
+                    return BadRequest(res);
+                }
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e);
+            }
+        }
+
+        //done
+        [HttpGet("GetByEmail")]
+        public IActionResult GetByEmail([FromQuery] string e)
+        {
+            try
+            {
+                var res = _logic.GetByEmail(e);
+                if (res != null)
+                {
+                    return Ok(res);
+                }
+                else
+                {
+                    return BadRequest(res);
+                }
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex);
+            }
+        }
+
+        //done
+        [HttpGet("getAllDoctor")]
+        public IActionResult GetAll()
+        {
+            try
+            {
+                var res = _logic.GetAll();
+                if (res != null)
+                {
+                    return Ok(res);
+                }
+                else
+                {
+                    return BadRequest(res);
+                }
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e);
+            }
+        }
+
+        //done
+        [HttpPost("addDoctor")]
+        public IActionResult Add(DataLayer.Entities.Doctor doctor)
+        {
+            try
+            {
+                doctor.Id = Guid.NewGuid();
+                string res = _logic.AddDoctor(doctor);
+                if (res == "-1") return BadRequest("-1");
+                else if (res == "-2") return BadRequest("-2");
+                else if (res == "1") return Created("added", doctor);
+                else return BadRequest();
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e);
+            }
+        }
+
+        [HttpDelete("deleteDoctor/{email}")]
+        public IActionResult Delete([FromRoute] string email)
+        {
+            try
+            {
+                var res = _logic.DeleteDoctor(email);
+                if (res == "1") return Ok(StatusCodes.Status204NoContent);
+                else if (res == "-1") return Ok(StatusCodes.Status400BadRequest);
+                else return BadRequest();
+            }catch (Exception e)
+            {
+                return BadRequest(e);
+            }
+        }
+    }
+}

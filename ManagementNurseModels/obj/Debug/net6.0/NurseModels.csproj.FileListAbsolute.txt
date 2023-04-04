@@ -1,0 +1,12 @@
+M:\TP-gateway-api-myfork\TP-Gateway-api\managementapi\NurseModels\bin\Debug\net6.0\NurseModels.deps.json
+M:\TP-gateway-api-myfork\TP-Gateway-api\managementapi\NurseModels\bin\Debug\net6.0\NurseModels.dll
+M:\TP-gateway-api-myfork\TP-Gateway-api\managementapi\NurseModels\bin\Debug\net6.0\NurseModels.pdb
+M:\TP-gateway-api-myfork\TP-Gateway-api\managementapi\NurseModels\obj\Debug\net6.0\NurseModels.csproj.AssemblyReference.cache
+M:\TP-gateway-api-myfork\TP-Gateway-api\managementapi\NurseModels\obj\Debug\net6.0\NurseModels.GeneratedMSBuildEditorConfig.editorconfig
+M:\TP-gateway-api-myfork\TP-Gateway-api\managementapi\NurseModels\obj\Debug\net6.0\NurseModels.AssemblyInfoInputs.cache
+M:\TP-gateway-api-myfork\TP-Gateway-api\managementapi\NurseModels\obj\Debug\net6.0\NurseModels.AssemblyInfo.cs
+M:\TP-gateway-api-myfork\TP-Gateway-api\managementapi\NurseModels\obj\Debug\net6.0\NurseModels.csproj.CoreCompileInputs.cache
+M:\TP-gateway-api-myfork\TP-Gateway-api\managementapi\NurseModels\obj\Debug\net6.0\NurseModels.dll
+M:\TP-gateway-api-myfork\TP-Gateway-api\managementapi\NurseModels\obj\Debug\net6.0\refint\NurseModels.dll
+M:\TP-gateway-api-myfork\TP-Gateway-api\managementapi\NurseModels\obj\Debug\net6.0\NurseModels.pdb
+M:\TP-gateway-api-myfork\TP-Gateway-api\managementapi\NurseModels\obj\Debug\net6.0\ref\NurseModels.dll
