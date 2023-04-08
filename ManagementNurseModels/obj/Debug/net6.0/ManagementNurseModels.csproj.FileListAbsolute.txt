@@ -22,3 +22,15 @@ M:\MicroservicesSolution\ManagementAPISolution\ManagementNurseModels\obj\Debug\n
 M:\MicroservicesSolution\ManagementAPISolution\ManagementNurseModels\obj\Debug\net6.0\refint\ManagementNurseModels.dll
 M:\MicroservicesSolution\ManagementAPISolution\ManagementNurseModels\obj\Debug\net6.0\ManagementNurseModels.pdb
 M:\MicroservicesSolution\ManagementAPISolution\ManagementNurseModels\obj\Debug\net6.0\ref\ManagementNurseModels.dll
+M:\team organization\management-api\ManagementNurseModels\bin\Debug\net6.0\ManagementNurseModels.deps.json
+M:\team organization\management-api\ManagementNurseModels\bin\Debug\net6.0\ManagementNurseModels.dll
+M:\team organization\management-api\ManagementNurseModels\bin\Debug\net6.0\ManagementNurseModels.pdb
+M:\team organization\management-api\ManagementNurseModels\obj\Debug\net6.0\ManagementNurseModels.csproj.AssemblyReference.cache
+M:\team organization\management-api\ManagementNurseModels\obj\Debug\net6.0\ManagementNurseModels.GeneratedMSBuildEditorConfig.editorconfig
+M:\team organization\management-api\ManagementNurseModels\obj\Debug\net6.0\ManagementNurseModels.AssemblyInfoInputs.cache
+M:\team organization\management-api\ManagementNurseModels\obj\Debug\net6.0\ManagementNurseModels.AssemblyInfo.cs
+M:\team organization\management-api\ManagementNurseModels\obj\Debug\net6.0\ManagementNurseModels.csproj.CoreCompileInputs.cache
+M:\team organization\management-api\ManagementNurseModels\obj\Debug\net6.0\ManagementNurseModels.dll
+M:\team organization\management-api\ManagementNurseModels\obj\Debug\net6.0\refint\ManagementNurseModels.dll
+M:\team organization\management-api\ManagementNurseModels\obj\Debug\net6.0\ManagementNurseModels.pdb
+M:\team organization\management-api\ManagementNurseModels\obj\Debug\net6.0\ref\ManagementNurseModels.dll

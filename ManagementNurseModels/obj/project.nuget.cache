@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6uXJwJglElhcvc38vPHxZWm5H80kmyP59hcffzZ0Fj1O3GChjfplDLgmgA5jL5mt6LMd6PVzOMxUhK7JF7vkXw==",
+  "dgSpecHash": "mafSBFgYKKIM8i2MQtbVQ6LTo9FXmaKQYHK24ch3evIcuEQE2rLT5Rwgj6cb7BJUbTWBreVskL8I8tBnVbqrgA==",
   "success": true,
-  "projectFilePath": "M:\\docker-ci-cd\\ManagementSolution\\ManagementNurseModels\\ManagementNurseModels.csproj",
+  "projectFilePath": "M:\\team organization\\management-api\\ManagementNurseModels\\ManagementNurseModels.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

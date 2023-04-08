@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "M:\\docker-ci-cd\\ManagementSolution\\ManagementNurseModels\\ManagementNurseModels.csproj": {}
+    "M:\\team organization\\management-api\\ManagementNurseModels\\ManagementNurseModels.csproj": {}
   },
   "projects": {
-    "M:\\docker-ci-cd\\ManagementSolution\\ManagementNurseModels\\ManagementNurseModels.csproj": {
+    "M:\\team organization\\management-api\\ManagementNurseModels\\ManagementNurseModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\docker-ci-cd\\ManagementSolution\\ManagementNurseModels\\ManagementNurseModels.csproj",
+        "projectUniqueName": "M:\\team organization\\management-api\\ManagementNurseModels\\ManagementNurseModels.csproj",
         "projectName": "ManagementNurseModels",
-        "projectPath": "M:\\docker-ci-cd\\ManagementSolution\\ManagementNurseModels\\ManagementNurseModels.csproj",
+        "projectPath": "M:\\team organization\\management-api\\ManagementNurseModels\\ManagementNurseModels.csproj",
         "packagesPath": "C:\\Users\\manoj\\.nuget\\packages\\",
-        "outputPath": "M:\\docker-ci-cd\\ManagementSolution\\ManagementNurseModels\\obj\\",
+        "outputPath": "M:\\team organization\\management-api\\ManagementNurseModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\manoj\\AppData\\Roaming\\NuGet\\NuGet.Config",

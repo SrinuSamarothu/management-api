@@ -11,11 +11,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-
-var dbHost = Environment.GetEnvironmentVariable("DB_HOST");
-var dbName = Environment.GetEnvironmentVariable("DB_NAME");
-var dbPassword = Environment.GetEnvironmentVariable("DB_SA_PASSWORD");
-var connectionString = $"Server={dbHost},1433;Initial Catalog={dbName};Persist Security Info=False;User ID=Manoj;Password={dbPassword};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=true;Connection Timeout=30;";
+var connectionString = "Server=tcp:teamperseverance.database.windows.net,1433;Initial Catalog=managementdb;Persist Security Info=False;User ID=manoj;Password=Team@123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
 builder.Services.AddDbContext<DataLayer.Entities.ManojDbContext>(opt => opt.UseSqlServer(connectionString));
 
 //builder.Services.AddScoped<DataLayer.Entities.ManojDbContext>();
